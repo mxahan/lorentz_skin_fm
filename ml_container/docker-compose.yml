@@ -1,0 +1,28 @@
+services:
+  ml:
+    build: .
+
+    container_name: ml_workspace
+
+    ports:
+      - "8888:8888"
+
+    volumes:
+      - /home/zahid/Downloads/ml_workspace:/workspace
+
+    working_dir: /workspace
+
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+    stdin_open: true
+    tty: true
+
+    environment:
+      - HF_HOME=/workspace/.cache/huggingface
+      - TRANSFORMERS_CACHE=/workspace/.cache/huggingface
