@@ -1,0 +1,15 @@
+0	AKIEC
+1	BCC
+2	BEN_OTH
+3	BKL
+4	DF
+5	INF
+6	MAL_OTH
+7	MEL
+8	NV
+9	SCCKA
+10	VASC
+11	benign
+12	premalignant
+13	malignant
+14	root
