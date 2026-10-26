@@ -1,5 +1,5 @@
 # Acknowledgement
-Our codebase directly uses some of the code from the earlier open-source repositories. I put the most important ones here. I would like to thank their setup and hope this repositories further facilitates open researches and code sharing. Some code is modified by LLMs, but it has been thoroughly checked by me!
+Our codebase directly uses some of the code from earlier open-source repositories. I put the most important ones here. I would like to thank their setup and hope this repositories further facilitates open researches and code sharing. Some code is modified by LLMs, but it has been thoroughly checked by me!
 
 [PanDerm](https://github.com/SiyuanYan1/PanDerm)
 
@@ -23,6 +23,7 @@ Vision Tx Modification [1](https://github.com/SiyuanYan1/Derm1M/blob/main/src/op
 
 
 # User Instruction
+Users may have to download the missing files from the original source GitHubs for the models. This repository contains all the modified files in the exact directories compatible with the base repos. 
 # Background
 # Package instructions
 # Our Codes
